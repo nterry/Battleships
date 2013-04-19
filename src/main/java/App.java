@@ -1,5 +1,5 @@
 import models.Player;
-import views.GameBoard;
+import views.GameBoards.PvCGameBoard;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,7 +10,7 @@ import views.GameBoard;
  */
 public class App {
     public static void main(String[] args) {
-        new GameBoard(new Player(), 10);
+        new PvCGameBoard(new Player(), 10);
 
     }
 }
